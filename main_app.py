@@ -150,7 +150,7 @@ class SecondScreen(Screen):
         self.add_widget(bl1)
  
         bl2 = BoxLayout(padding=[0, 0, 0, 150])
-        lb = Label(text='Выполнить 30 приседаний за 45.')
+        lb = Label(text='Выполнить 30 приседаний за 45 секунд.')
         bl2.add_widget(lb)
         self.add_widget(bl2)
  
@@ -275,7 +275,7 @@ class FinalScreen(Screen):
         #count = (4 * (p1 + p2 + p3) - 200) / 10
  
         bl = BoxLayout(padding=[200, 200, 200, 200])
-        lb = Label(text=f'Иван\nВаш индекс Руфье:\nРаботоспособность сердца:низкая.\nСрочно обратитесь к врачу!')
+        lb = Label(text=f'\nВаш индекс Руфье:\nРаботоспособность сердца:низкая.\nСрочно обратитесь к врачу!')
         bl.add_widget(lb)
         self.add_widget(bl)
  
